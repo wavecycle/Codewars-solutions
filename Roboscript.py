@@ -46,5 +46,6 @@ class GridSolver(object):
 
 
 def execute(code):
-	t = GridSolver()
 	return t.code_to_grid(code)
+
+t = GridSolver()
